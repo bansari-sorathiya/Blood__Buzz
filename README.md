@@ -1,0 +1,1 @@
+This is Blood Donation Management System. All user will be  consider as an Individual.User can create blood request and eligible user can find then and contact them . There is also functionality of Camp etc.
