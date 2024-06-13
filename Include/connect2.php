@@ -1,3 +1,6 @@
+<!-- It Is For Php Data Object -->
+
+
 <?php 
 // $connection=mysqli_connect("localhost","root","","blood") or die("Connection Established...!");
 $db_name = 'mysql:host=localhost;dbname=blood';
