@@ -1,0 +1,87 @@
+body{
+    background: #f7f7ff;
+    margin-top:20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+    margin-right: .5rem!important;
+}
+.toggle-btn {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-right: 10px;
+    width:200px;
+    height:50px;
+    font-size:large;
+    margin-top:30px;
+  }
+
+  .error-message,.message
+      {
+         margin-bottom: 20px;
+         font-size:medium;
+         font-weight:bold;
+         width:500px;
+         height:40px;
+         padding:8px;
+         padding-bottom:5px;
+         padding-left:25px;
+         display: inline-block;
+         color: white;
+      }
+      .message
+      {
+        background-color:green;
+        border: 2px solid green;
+        color:white;
+      }
+      .error-message
+      {
+        background-color:#cc0000;
+        border: 2px solid #cc0000; 
+      }
+       .card {
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+    }
+    
+    
+    .card-header {
+        padding: 1rem 1.35rem;
+        margin-bottom: 0;
+        background-color: rgba(33, 40, 50, 0.03);
+        border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.875rem 1.125rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #69707a;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #c5ccd6;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.35rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    

@@ -1,0 +1,9 @@
+<?php 
+ob_start();
+session_start();
+if(!isset($_SESSION['email']))
+{
+    header("location:404.php");
+    exit(0);
+}
+?>
